@@ -5,33 +5,45 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #cccccc;
+    background-color: #F4EBC3;
 }
 
 #board div {
-    width: 10px;
-    height: 10px;
-    border: 1px solid #cccccc;
-    background-color: #ffffff;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #BCA297   ;
+    background-color: #C5CEAE;
     float: left;
 }
 
 #board div.live {
-    background-color: #000000;
+    background-color: #AB526B;
+    border-radius: 3px;
 }
 
 #board {
-    margin: 50px auto 0;
+    margin: 35px auto 0;
     min-height: 100px;
     min-width: 100px;
 }
 
-#game-menu {
-    margin: 50px auto;
-    width: auto;
-}
-
 #game-set {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
+}
+
+#play, #pause {
+    width: 120px;
+    height: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #D0FCA9;
+    color: #AB526B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
 }
