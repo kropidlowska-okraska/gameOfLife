@@ -4,6 +4,9 @@ This simple version of famous "Game of life" was created to  present author's sk
 
 Game was developed with pure JavaScript and styled with CSS.
 
+# Demo
+
+You can find and play the demo of this project on: https://kropidlowska-okraska.github.io/gameOfLife/
 
 # Info about "Game of life"
 
